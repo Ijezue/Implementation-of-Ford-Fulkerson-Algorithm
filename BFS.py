@@ -66,4 +66,3 @@ g = Graph(graph)
 source = 0; sink = 5
 
 print("The maximum possible flow is %d " % g.FordFulkerson(source, sink))
-print('shayo')
