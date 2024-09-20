@@ -35,9 +35,9 @@ sends as much flow as possible through that path until no more augmenting paths 
 In this repo, I implemented Ford-Fulkerson algorithm using both search algorithms (i.e DFS and BFS).
 You can implement both and compare their 
 
-##Performance Considerations
-###DFS vs BFS:
+## Performance Considerations
+### DFS vs BFS:
 DFS may be faster in some cases, but it doesn't guarantee the shortest augmenting paths, potentially leading to slower convergence in certain networks. BFS, on the other hand, always finds the shortest augmenting path and tends to perform better in terms of both time complexity and the number of iterations needed to reach the maximum flow.
 
-###Memory Usage:
+### Memory Usage:
 BFS typically requires more memory than DFS due to the need to store all the nodes at the current level of the search.
