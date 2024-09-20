@@ -32,8 +32,7 @@ The Ford-Fulkerson method can also be implemented using Depth-First Search (DFS)
 This approach repeatedly searches for any path from the source to the sink in the residual graph and 
 sends as much flow as possible through that path until no more augmenting paths can be found.
 
-In this repo, I implemented Ford-Fulkerson algorithm using both search algorithms (i.e DFS and BFS).
-You can implement both and compare their 
+This implementation provides two approaches for finding these augmenting paths using both search algorithms: Depth-First Search (DFS) and Breadth-First Search (BFS).
 
 ## Performance Considerations
 ### DFS vs BFS:
